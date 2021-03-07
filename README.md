@@ -45,15 +45,18 @@ List of tools used for RTL to GDS flow
 - OpenSTA & Opentimer – Pre-layout and Post-layout Static timing analysis
 ### Day-1
 **Terminal**
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Terminal.png)
 
 **Initialising a sample design - raven spi using qflow**
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi.png)
 
 **Raven spi Layout**
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi_Layout.png)
 
 **Raven spi Layout Area**
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi_Area.png)
 
 **Preparation of Picorv32**

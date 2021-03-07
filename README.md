@@ -104,4 +104,24 @@ List of tools used for RTL to GDS flow
 **Transient Analysis**
 ![]
 ### Day-4
+**OSU018 std library**
+![]
+**Synopsys Design Constraints File (.sdc)**
+![]
+**Configuration before running STA**
+![]
+**OpenSTA**
+![]
+**Slack Condition Met**
+![]
 ### Day-5
+**Routing In-Progress**
+![]
+**Routing Complete**
+![]
+**Prelayout STA Maximum Frequency of Operation**
+![]
+**Postlayout STA Maximum Frequency of Operation**
+![]
+### Acknowledgement
+Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)

@@ -194,7 +194,7 @@ List of tools used for RTL to GDS flow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/STA-4.png)
 
-### Slack Condition Met**
+### Slack Condition Met
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/Slack_Met.png)
 

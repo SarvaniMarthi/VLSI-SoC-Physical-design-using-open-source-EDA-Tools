@@ -19,11 +19,15 @@
 
 **Day-4**
 - Timing modelling using delay tables
-- Timing analysis with ideal clocks
-- Clock tree synthesis and signal integrity
-- Timing analysis with real clocks
+- Timing Analysis with Ideal Clocks
+- Clock Tree Synthesis and Signal Integrity
+- Timing Analysis with Real Clocks
 
 **Day-5**
+- Routing
+- DRC
+- Parasitic Extraction
+
 ## RTL to GDSII Flow
 - **Synthesis**
 - **Floorplanning**

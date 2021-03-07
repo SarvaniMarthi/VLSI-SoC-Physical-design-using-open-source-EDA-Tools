@@ -77,23 +77,23 @@ List of tools used for RTL to GDS flow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Placement_In-Progress-1.png)
 
-### Qflow Ungroup Pins**
+### Qflow Ungroup Pins
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Ungrouped_Pins.png)
 
-### Qflow after Auto Group**
+### Qflow after Auto Group
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Auto_Grouped_Pins.png)
 
-### Qflow Create Pin Group**
+### Qflow Create Pin Group
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Create_Pin_Groups.png)
 
-### Qflow after Custom Group**
+### Qflow after Custom Group
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/After_Custom_Group.png)
 
-### Placement In-Progress**
+### Placement In-Progress
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Placement_In-Progress-2.png)
 
@@ -109,7 +109,7 @@ List of tools used for RTL to GDS flow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Picorv32_Layout.png)
 
-### Layout Area**
+### Layout Area
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Picorv32_Area.png)
 
@@ -119,33 +119,33 @@ List of tools used for RTL to GDS flow
 
 ### Day-3
 ### Inverter with PMOS Width 0.5μm
-### Spice Deck**
+### Spice Deck
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Spicedeck_0.5%CE%BCm.png)
 
-### Transfer Characteristics*
+### Transfer Characteristics
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Transfer_Characteristics_0.5%CE%BCm.png)
 
 ### Inverter with PMOS Width 0.5μm
-### Spice Deck*
+### Spice Deck
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Spicedeck_0.75%CE%BCm.png)
 
-### Transfer Characteristics**
+### Transfer Characteristics
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Transfer_Characteristics_0.75%CE%BCm.png)
 
-### Transient Analysis**
+### Transient Analysis
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Transient_Analysis_0.75%CE%BCm.png)
 
 #### Prelayout 
-### Spice Deck**
+### Spice Deck
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Prelayout_Spicedeck.png)
 
-### Transient Analysis**
+### Transient Analysis
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Prelayout_Transient_Analysis.png)
 
@@ -163,28 +163,28 @@ List of tools used for RTL to GDS flow
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Layout_Area.png)
 
 #### Postlayout 
-### Spice Deck**
+### Spice Deck
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Postlayout_Spicedeck.png)
 
-### Transient Analysis**
+### Transient Analysis
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Postlayout_Transient_Analysis.png)
 
 ### Day-4
-### OSU018 std library**
+### OSU018 std library
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/OSU018_std.png)
 
-### Synopsys Design Constraints File (.sdc)**
+### Synopsys Design Constraints File (.sdc)
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/SDC_File.png)
 
-### Configuration before running STA**
+### Configuration before running STA
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/Configuration_STA.png)
 
-### OpenSTA**
+### OpenSTA
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/STA-1.png)
 
@@ -199,19 +199,19 @@ List of tools used for RTL to GDS flow
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/Slack_Met.png)
 
 ### Day-5
-### Routing In-Progress**
+### Routing In-Progress
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%205/Routing_In-Progress.png)
 
-### Routing Complete**
+### Routing Complete
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%205/Routing_Complete.png)
 
-### Prelayout STA Maximum Frequency of Operation**
+### Prelayout STA Maximum Frequency of Operation
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%205/Prelayout_Frequency.png)
 
-### Postlayout STA Maximum Frequency of Operation**
+### Postlayout STA Maximum Frequency of Operation
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%205/Postlayout_Frequency.png)
 

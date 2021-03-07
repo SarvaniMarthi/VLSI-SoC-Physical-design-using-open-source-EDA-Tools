@@ -43,7 +43,7 @@ List of tools used for RTL to GDS flow
 - Magic – for Layout and Floorplanning
 - Qflow – RTL2GDS integration
 - OpenSTA & Opentimer – Pre-layout and Post-layout Static timing analysis
-### Day-1
+## Day-1
 ### Terminal
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Terminal.png)
@@ -72,7 +72,7 @@ List of tools used for RTL to GDS flow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Synthesis_log_Picorv32.png)
 
-### Day-2
+## Day-2
 ### Placement of Picorv32
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Placement_In-Progress-1.png)
@@ -117,7 +117,7 @@ List of tools used for RTL to GDS flow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Terminal.png)
 
-### Day-3
+## Day-3
 ### Inverter with PMOS Width 0.5μm
 ### Spice Deck
 
@@ -171,7 +171,7 @@ List of tools used for RTL to GDS flow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Postlayout_Transient_Analysis.png)
 
-### Day-4
+## Day-4
 ### OSU018 std library
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/OSU018_std.png)
@@ -198,7 +198,7 @@ List of tools used for RTL to GDS flow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/Slack_Met.png)
 
-### Day-5
+## Day-5
 ### Routing In-Progress
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%205/Routing_In-Progress.png)

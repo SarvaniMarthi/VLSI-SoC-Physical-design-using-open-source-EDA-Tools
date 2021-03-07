@@ -44,55 +44,83 @@ List of tools used for RTL to GDS flow
 - Qflow – RTL2GDS integration
 - OpenSTA & Opentimer – Pre-layout and Post-layout Static timing analysis
 ### Day-1
-**Terminal**
+### Terminal
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Terminal.png)
 
-**Initialising a sample design - raven spi using qflow**
+### Initialising a sample design - raven spi using qflow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi.png)
 
-**Raven spi Layout**
+### Raven spi Layout
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi_Layout.png)
 
-**Raven spi Layout Area**
+### Raven spi Layout Area
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi_Area.png)
 
-**Preparation of Picorv32**
+### Preparation of Picorv32
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Preparation_Picorv32.png)
 
-**Synthesis of Picorv32**
+### Synthesis of Picorv32
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Synthesis_Picorv32.png)
 
-**Picorv32 Statistics**
+### Picorv32 Statistics
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Synthesis_log_Picorv32.png)
 
 ### Day-2
-**Placement of Picorv32**
+### Placement of Picorv32
+
 ![]()
+
 **Qflow Ungroup Pins**
+
 ![]()
+
 **Qflow after Auto Group**
+
 ![]()
+
 **Qflow Create Pin Group**
+
 ![]()
+
 **Qflow after Custom Group**
+
 ![]()
+
 **Placement In-Progress**
+
 ![]()
+
 **Placement Complete - Layout**
+
 ![]()
+
 **Layout Area**
+
 ![]()
+
 ### Day-3
+
 #### Inverter with PMOS Width 0.5μm
+
 **Spice Deck**
+
 ![]()
+
 **Transfer Characteristics*
+
 ![]()
+
 #### Inverter with PMOS Width 0.5μm
+
 **Spice Deck*
+
 ![]()
 **Transfer Characteristics**
 ![]()

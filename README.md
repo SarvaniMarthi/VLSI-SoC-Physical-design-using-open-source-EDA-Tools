@@ -115,8 +115,6 @@ List of tools used for RTL to GDS flow
 
 ### Terminal
 
-![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Terminal.png)
-
 
 ### Day-3
 ### Inverter with PMOS Width 0.5μm

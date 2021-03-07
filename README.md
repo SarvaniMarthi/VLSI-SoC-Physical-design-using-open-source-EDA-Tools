@@ -127,7 +127,7 @@ List of tools used for RTL to GDS flow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Transfer_Characteristics_0.5%CE%BCm.png)
 
-### Inverter with PMOS Width 0.5μm
+### Inverter with PMOS Width 0.75μm
 ### Spice Deck
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Spicedeck_0.75%CE%BCm.png)

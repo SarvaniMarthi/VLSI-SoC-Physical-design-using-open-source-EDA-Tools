@@ -54,10 +54,12 @@ List of tools used for RTL to GDS flow
 
 ### Raven spi using qflow
 
-'''
+```
 cd vsdflow
 ./vsdflow spi_slave_design_details.csv
-'''
+```
+
+
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi.png)
 

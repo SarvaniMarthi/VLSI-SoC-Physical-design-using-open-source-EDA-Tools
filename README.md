@@ -59,19 +59,38 @@ cd vsdflow
 ./vsdflow spi_slave_design_details.csv
 ```
 
-
-
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi.png)
 
 ### Raven spi Layout
+```
+cd outdir_spi_slave
+qflow display spi_slave
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi_Layout.png)
 
 ### Raven spi Layout Area
+```
+box
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi_Area.png)
 
 ### Preparation of Picorv32
+```
+cd
+cd vsdflow
+mkdir my_picorv32
+cd my_picorv32
+mkdir source synthesis layout
+cp ~/vsdflow/verilog/picorv32.v source/.
+qflow gui &
+```
+```
+Technology = osu018
+Verilog source file: picorv32.v
+Verilog module: picorv32
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Preparation_Picorv32.png)
 
@@ -85,7 +104,15 @@ cd vsdflow
 
 ## Day-2
 ### Placement of Picorv32
-
+```
+cd
+cd vsdflow
+mkdir my_picorv32
+cd my_picorv32
+mkdir source synthesis layout
+cp ~/vsdflow/verilog/picorv32.v source/.
+qflow gui &
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Placement_In-Progress-1.png)
 
 ### Ungroup Pins
@@ -117,10 +144,19 @@ cd vsdflow
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Placement_Complete-1.png)
 
 ### Layout
+```
+cd
+cd vsdflow/my_picorv32
+qflow display picorv32 &
+```
+
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Picorv32_Layout.png)
 
 ### Layout Area
+```
+box
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%202/Picorv32_Area.png)
 
@@ -131,16 +167,28 @@ cd vsdflow
 ## Day-3
 ### Inverter with PMOS Width 0.5μm
 ### Spice Deck
-
+```
+cd
+cd ngspice_labs
+ngspice inv.spice
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Spicedeck_0.5%CE%BCm.png)
 
 ### Transfer Characteristics
-
+```
+ngspice 1 -> run
+ngspice 1 -> setplot dc1
+ngspice 1 -> plot out in
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Transfer_Characteristics_0.5%CE%BCm.png)
 
 ### Inverter with PMOS Width 0.75μm
 ### Spice Deck
-
+```
+cd
+cd ngspice_labs
+ngspice inv.spice
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Spicedeck_0.75%CE%BCm.png)
 
 ### Transfer Characteristics

@@ -315,25 +315,42 @@ link_design picorv32
 read_sdc picorv32.sdc
 report_checks
 ```
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/Configuration_STA.png)
 
 ### OpenSTA
+```
+sta prelayout_sta.conf
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/STA-1.png)
+```
+% report_checks -digits 4
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/STA-2.png)
+```
+% set_propagated_clock [all_clocks]
+% report_checks
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/STA-3.png)
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/STA-4.png)
 
 ### Slack Condition Met
-
+```
+report_checks -path_delay min -digits 4
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/Slack_Met.png)
 
 ## Day-5
 ### Routing In-Progress
-
+```
+cd
+cd vsdflow/my_picorv32
+qflow route picorv32
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%205/Routing_In-Progress.png)
 
 ### Routing Complete
@@ -341,11 +358,17 @@ report_checks
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%205/Routing_Complete.png)
 
 ### Prelayout STA Frequency
-
+```
+qflow sta picorv32
+qflow backanno picorv32
+leafpad log/sta.log
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%205/Prelayout_Frequency.png)
 
 ### Postlayout STA Frequency
-
+```
+leafpad log/post_sta.log
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%205/Postlayout_Frequency.png)
 
 ### Acknowledgement

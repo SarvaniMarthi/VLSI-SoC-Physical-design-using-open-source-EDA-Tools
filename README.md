@@ -170,16 +170,19 @@ box
 ```
 cd
 cd ngspice_labs
-ngspice inv.spice
+cat inv.spice
 ```
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Spicedeck_0.5%CE%BCm.png)
 
-### Transfer Characteristics
+### Voltage Transfer Characteristics
 ```
+ngspice inv.spice
 ngspice 1 -> run
 ngspice 1 -> setplot dc1
 ngspice 1 -> plot out in
 ```
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Transfer_Characteristics_0.5%CE%BCm.png)
 
 ### Inverter with PMOS Width 0.75μm
@@ -187,60 +190,131 @@ ngspice 1 -> plot out in
 ```
 cd
 cd ngspice_labs
-ngspice inv.spice
+leafpad inv.spice
+cat inv.spice
 ```
+
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Spicedeck_0.75%CE%BCm.png)
 
-### Transfer Characteristics
+### Voltage Transfer Characteristics
+```
+ngspice inv.spice
+ngspice 1 -> run
+ngspice 1 -> setplot dc1
+ngspice 1 -> plot out in
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Transfer_Characteristics_0.75%CE%BCm.png)
 
 ### Transient Analysis
+```
+ngspice inv_tran.spice
+ngspice 1 -> run
+ngspice 1 -> setplot tran1
+ngspice 1 -> plot out in
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Transient_Analysis_0.75%CE%BCm.png)
 
 ### Prelayout 
 ### Spice Deck
+```
+cd
+cd ngspice_labs
+cat fn_prelayout.spice
+````
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Prelayout_Spicedeck.png)
 
 ### Transient Analysis
+```
+ngspice fn_prelayout.spice
+ngspice 1 -> run
+ngspice 1 -> setplot tran1
+ngspice 1 -> plot out 1.25
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Prelayout_Transient_Analysis.png)
 
 ### Layout 
 ### Using Tcl Script
+```
+cd
+cd ngspice_labs
+magic -T min2.tech
+```
+```
+source draw_fn.tcl
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Layout_Tcl.png)
 
 ### Layout
+```
+cd
+cd ngspice_labs
+magic -T min2.tech fn_postlayout.mag &
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Layout.png)
 
 ### Layout Area
+```
+box
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Layout_Area.png)
 
 ### Postlayout 
 ### Spice Deck
+```
+cd
+cd ngspice_labs
+leafpad fn_postlayout.spice
+cat fn_postlayout.spice
+````
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Postlayout_Spicedeck.png)
 
 ### Transient Analysis
+```
+ngspice fn_postlayout.spice
+ngspice 1 -> run
+ngspice 1 -> setplot tran1
+ngspice 1 -> plot out 1.25
+```
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%203/Postlayout_Transient_Analysis.png)
 
 ## Day-4
 ### OSU018 std library
-
+```
+leafpad /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/OSU018_std.png)
 
 ### Synopsys Design Constraints File (.sdc)
-
+```
+cd
+cd vsdflow/my_picorv32
+leafpad picorv32.sdc
+```
+```
+create_clock -name clk -period 2.5 -waveform {0 1.25} [get_ports clk]
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/SDC_File.png)
 
 ### Configuration before running STA
-
+```
+leafpad prelayout_sta.conf
+```
+```
+read_liberty /usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+read_verilog synthesis/picorv32.rtlnopwr.v
+link_design picorv32
+read_sdc picorv32.sdc
+report_checks
+```
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%204/Configuration_STA.png)
 
 ### OpenSTA

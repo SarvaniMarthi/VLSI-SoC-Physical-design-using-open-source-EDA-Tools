@@ -55,9 +55,12 @@ List of tools used for RTL to GDS flow
 ### Raven spi using qflow
 
 ```
+cd (Na
+git clone https://github.com/kunalg123/vsdflow.git
 cd vsdflow
 ./vsdflow spi_slave_design_details.csv
 ```
+Navigate to the home directory, clone an existing repository, change the directory to vsdflow
 
 ![](https://github.com/SarvaniMarthi/VLSI-SoC-Physical-design-using-open-source-EDA-Tools/blob/main/Images/Day%201/Raven_spi.png)
 
@@ -169,6 +172,7 @@ box
 ### Spice Deck
 ```
 cd
+git clone https://github.com/kunalg123/ngspice_labs.git
 cd ngspice_labs
 cat inv.spice
 ```

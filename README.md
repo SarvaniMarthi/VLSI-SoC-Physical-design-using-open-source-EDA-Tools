@@ -1,32 +1,4 @@
 # VLSI SoC/Physical design using open-source EDA Tools
-## Topics Covered
-**Day-1**
-- IC Design Components Terminologies
-- RISC-V based SOC Design
-- Open-source EDA Tools
-
-**Day-2**
-- Floorplanning
-- Placement
-- Cell Design Flow
-- Timing Characterization Parameters
-
-**Day-3**
-- CMOS Inverter Spice Simulation
-- Euler's Path and Stick Diagram
-- Post Layout Simulation
-- CMOS Fabrication Process
-
-**Day-4**
-- Timing modelling using delay tables
-- Timing Analysis with Ideal Clocks
-- Clock Tree Synthesis and Signal Integrity
-- Timing Analysis with Real Clocks
-
-**Day-5**
-- Routing
-- DRC
-- Parasitic Extraction
 
 ## RTL to GDSII Flow
 - **Synthesis**

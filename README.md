@@ -51,17 +51,17 @@ List of tools used for RTL to GDS flow
 ## Day-1
 ### Theory
 ### IC Design Components Terminologies
-Introduction to QFN-48 package, chip, pads, core, die and IP's
+- Introduction to QFN-48 package, chip, pads, core, die and IP's
 
 ### RISC-V based SOC Design
-Introduction to RISC-V
-Introduction to picorv32 and picoSoC review
-Raven SoC and Raven full chip review
+- Introduction to RISC-V
+- Introduction to picorv32 and picoSoC review
+- Raven SoC and Raven full chip review
 
 ### Open-source EDA Tools
-Introduction to IC design components and open-source EDA tools
-Synthesizing picorv32, report ratio
-Test open-source EDA tools using sample design
+- Introduction to IC design components and open-source EDA tools
+- Synthesizing picorv32, report ratio
+- Test open-source EDA tools using sample design
 
 ### Lab
 ### Terminal
@@ -127,27 +127,27 @@ Change the above parameters in the Qflow manager.
 ## Day-2
 ### Theory
 ### Floorplanning
-Utilization factor and aspect ratio
-Concept of pre-placed cells and De-coupling capacitors
-Power planning
-Pin Placement and logical cell placement blockage
-Pin arrangement UI and automatic grouping of vectors
+- Utilization factor and aspect ratio
+- Concept of pre-placed cells and De-coupling capacitors
+- Power planning
+- Pin Placement and logical cell placement blockage
+- Pin arrangement UI and automatic grouping of vectors
 
 ### Placement
-Netist binding and initial place design
-Optimize placement
-Final placement optimization
-Need for libraries and characterization
+- Netist binding and initial place design
+- Optimize placement
+- Final placement optimization
+- Need for libraries and characterization
 
 ### Cell Design Flow
-Inputs for cell design flow
-Circuit design 
-Layout design
-Characterization flow
+- Inputs for cell design flow
+- Circuit design 
+- Layout design
+- Characterization flow
 
 ### Timing Characterization Parameters
-Timing threshold
-Propagation delay and transition time
+- Timing threshold
+- Propagation delay and transition time
 
 ### Lab
 ### Placement of Picorv32
@@ -221,28 +221,28 @@ Type above command in the tkcon window to know the area of the selected layout.
 ## Day-3
 ### Theory
 ### CMOS Inverter Spice Simulation
-SPICE deck creation for CMOS inverter
-SPICE simulation for CMOS inverter
-Switching Threshold
-Static and dynamic simulation of CMOS inverter
+- SPICE deck creation for CMOS inverter
+- SPICE simulation for CMOS inverter
+- Switching Threshold
+- Static and dynamic simulation of CMOS inverter
 
 ###  Euler's Path and Stick Diagram
-Pre-layout simulation 
-layout using stick diagram
-Euler's path
-Improved stick diagram
-Abstarct layout from stick diagram
+- Pre-layout simulation 
+- Layout using stick diagram
+- Euler's path
+- Improved stick diagram
+- Abstarct layout from stick diagram
 
 ###  Post Layout Simulation
-Script to create layout in Magic
-Final layout 
-Post-layout simulation
+- Script to create layout in Magic
+- Final layout 
+- Post-layout simulation
 
 ###  CMOS Fabrication Process
-Create active regions
-Formation of N-well and P-well
-Formation of gate terminal, lightly doped drain and source-drain
-Local interconnect and higher level metal formation
+- Create active regions
+- Formation of N-well and P-well
+- Formation of gate terminal, lightly doped drain and source-drain
+- Local interconnect and higher level metal formation
 
 ### Lab
 ### Inverter with PMOS Width 0.5μm
@@ -382,20 +382,20 @@ Open ngspice simulation tool for 'fn_postlayout.spice', run the 'fn_postlayout.s
 ## Day-4
 ### Theory
 ### Timing modelling using delay tables
-Introducation to delay tables
-Delay table usage
+- Introducation to delay tables
+- Delay table usage
 
 ###  Timing Analysis with Ideal Clocks
-Setup timing analysis
-Introduction to clock jitter and uncertainty
+- Setup timing analysis
+- Introduction to clock jitter and uncertainty
 
 ###  Clock Tree Synthesis and Signal Integrity
-Clock tree routing and buffering using H-Tree algorithm
-Crosstalk and clock net shielding
+- Clock tree routing and buffering using H-Tree algorithm
+- Crosstalk and clock net shielding
 
 ###  Timing Analysis with Real Clocks
-Setup timing analysis
-Hold timing analysis
+- Setup timing analysis
+- Hold timing analysis
 
 ### Lab
 ### OSU018 std library
@@ -466,18 +466,18 @@ report_checks -path_delay min -digits 4
 ## Day-5
 ### Theory
 ### Routing
-Introduction to Maze routing
-Lee's algorithm
+- Introduction to Maze routing
+- Lee's algorithm
 
 ### DRC
-Design rule check
-Introduction to IEEE 1481- 1999 SPEF format
-SPEF representation of a NET
-SPEF header description
+- Design rule check
+- Introduction to IEEE 1481- 1999 SPEF format
+- SPEF representation of a NET
+- SPEF header description
 
 ### Parasitic Extraction
-Placement and pre-layout STA
-Routing and post-layout STA
+- Placement and pre-layout STA
+- Routing and post-layout STA
 
 ### Lab
 ### Routing In-Progress
